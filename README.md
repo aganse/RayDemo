@@ -1,4 +1,4 @@
-![screenshot](screenshot.png)
+![screenshot](screenshot1.png)
 
 RayDemo, 2005-2015  
 Andy Ganse, Applied Physics Laboratory, University of Washington  
@@ -14,6 +14,7 @@ Dependencies:
 
 * edu.washington.apl.aganse.dataTools:
   https://github.com/aganse/dataTools
+
 ----------------------------------------------------------------
 
 RayDemo is an interactive, graphical, geophysical raytrace applet,
