@@ -1,6 +1,8 @@
-RayDemo, 2005-2015
-Andy Ganse, Applied Physics Laboratory, University of Washington
-aganse@apl.washington.edu
+![screenshot](screenshot.png)
+
+RayDemo, 2005-2015  
+Andy Ganse, Applied Physics Laboratory, University of Washington  
+aganse@apl.washington.edu  
 
 ----------------------------------------------------------------
 Dependencies: 
@@ -22,7 +24,8 @@ objects (a different popular use of raytracing for graphics needs).
 
 You can download and compile the source, or just download and use
 the application jarfile, raydemo.jar.  Run it at commandline via:
-> java -jar raydemo.jar
+
+`> java -jar raydemo.jar`
 
 The class is designed to be run as either an independent application
 or as a webapge applet.  Please see my webpage on this app for more
@@ -32,12 +35,11 @@ The page source of that webpage demonstrates calling the code as
 an applet, but note a few manual changes still must be toggled in
 code to enable as an applet - search for "applet" in source for
 relevant lines/comments.  Making that automatic/combined remains
-on to-do list.
+on to-do list.  (Alas this code is terribly commented - also on to-do list.)
 
 See screenshot1.png & screenshot2.png in here, or others on that
-webapge above.  Quick running instructions:
-To bring up app from commandline run:  java -jar raydemo.jar
-Right-click on the WaveVel vs Depth plot (left) and choose say
+webapge above.  Quick running instructions: after starting app per above,
+right-click on the WaveVel vs Depth plot (left) and choose e.g.
 "Rapid Increase" velocity profile from menu (you can also click in
 your own points, either from scratch or adding to the chosen menu
 profile).  Then click the swirly-arrows button in toolbar to run
@@ -49,6 +51,4 @@ time vs range and other such information.  This button becomes
 activated (non-grayed-out) upon completion of a raytrace run.
 Lastly, also note the green Help (labeled "?") button on right
 side of toolbar for more information.
-
-(Alas the code is poorly commented, sorry...)
 
